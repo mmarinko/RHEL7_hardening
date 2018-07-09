@@ -380,3 +380,4 @@ echo 'GRUB_CMDLINE_LINUX="ipv6.disable=1"' >> /etc/default/grub
 grub2-mkconfig > /boot/grub2/grub.cfg
 
 #new stuff here
+yum install screen
